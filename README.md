@@ -2,7 +2,7 @@
 
 WebAPI Rest com a criação de novos usuarios. Tem também o worker que fica lendo a tabela outbox para desacolar a api da escrita na mensageria rabbitMQ.
 
-## ⚙️ Como rodar localmente
+## Como rodar localmente
  1. **ter o docker desktop instalado na maq**, caso nao tenha seguir as instruções pelo [link](https://www.docker.com/get-started/)
  2. **subir as imagens do banco de dados, do rabbitMQ e depois da observabilidade**
 
@@ -36,7 +36,7 @@ WebAPI Rest com a criação de novos usuarios. Tem também o worker que fica len
 
 5. Rodar a sln
 
-## 💡 Observações
+## Observações
 
 A arquitetura utiliza Outbox Pattern para garantir consistência entre a base de dados e o envio de eventos RabbitMQ.
 
