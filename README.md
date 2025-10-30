@@ -17,7 +17,7 @@ WebAPI Rest com a criação de novos usuarios. Tem também o worker que fica len
 
     d) rodar o mesmo comando do passo b) para subir as imagens necessárias para a observabilidade
 
-3. **rodar as migrations do MS PB_Clientes e do MS PB_Cartoes**
+3. **rodar as migrations do MS PB_Clientes e do MS PB_Cartoes e do PB_Orquestrador**
 4. **integrar o nugget PB_Common**
 
    a) na sln vá em manage Nuget Packages
